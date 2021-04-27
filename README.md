@@ -6,11 +6,11 @@
 # Git
 
 Git es un sistema distribuido de control de versiones (DVCS). Donde cada computadora tiene acceso a una copia de todo el historial de cambios de un proyecto.
+Otros sistemas se basan en *deltas* que representan sólo las diferencias entre una versión y otra. En cambio, git trabaja con **snapshots**. 
 
-![DVCS](https://raw.githubusercontent.com/shift-developer/git-workflows/main/DVCS.png)
+#### Snapshot-based
+![snap-based-system](https://raw.githubusercontent.com/shift-developer/git-workflows/main/img/snapshot-based.png)
 
-A diferencia de otros sistema git trabaja con **snapshots**. 
-![snap-based-system](https://raw.githubusercontent.com/shift-developer/git-workflows/main/img/snap-based.png)
-
+#### Delta-based
 Otros sistemas se basan en *deltas* que representan sólo las diferencias entre una versión y otra.
 ![delta-based-system](https://raw.githubusercontent.com/shift-developer/git-workflows/main/img/delta-based.png)
