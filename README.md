@@ -36,6 +36,20 @@ Puede ser por ejemplo en macOS se usa por defecto "vim" como editor para git, pe
 $ git config --global core.editor nano
 ```
 
+#### Default branch name
+Puedes cambiar el nombre de la rama master por defecto a tu preferencia a por ejemplo "main" que es lo que se usa actualmente en github.
+```bash
+$ git config --global init.defaultBranch main
+```
 
+#### Help
+```bash
+$ git help <verb>
+$ git <verb> --help
+$ man git-<verb>
+```
+
+
+### Basics
 
 
